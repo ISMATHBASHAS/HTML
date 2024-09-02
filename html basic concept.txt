@@ -1,0 +1,51 @@
+---------HTML------------
+IDE PLATFORM -Visual Studio
+
+HTML BASIC EXTENSION INSTALL Visual Studio
+1.Code Runner -Code Run pannalam
+2.Live Server -host in default browser
+3.Prettier code formatter -Use for Code colorful\
+4.Vs Code icon-use the defferentizial (Html,Css,Python)
+
+Validation for code correct format---W3c Validation -developer bacis concept
+
+HTML-comments tag (<!---->
+copy paste-windows-shift+alt+downarrow
+
+------Text basics-------------------
+basic tags
+<hr> this tag horzatal line nonclosing elements 
+<br> this tag use linebreak elements
+&nbsp-html entities use the whitespaces
+<address> tag use the Address
+<abbr> text abbravition
+---inline elements and blockline elements-----
+
+list Basic
+<ol>-order list
+<ul>-unorder list
+<dl><dt><dd>-description list
+
+links use to Html
+<a herf=">-this tag use to connection links
+inline links use #-tag 
+
+Image-Adding method
+ default width and hieth must
+ cumulative layout shift problem
+next element <figure> <figurecaption>
+
+Semantic Tags must follow the html
+
+Table format
+<table>
+<th>-table heading
+<tr> -table row
+<td> -table data
+
+Forms and Inputs
+<form>
+<lable>
+<input>
+
+input 2type get and post

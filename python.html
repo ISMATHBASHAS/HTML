@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="python website" content="python details">
+    <title>Python</title>
+    <link rel="icon" href="images/python.png" title="websitelogo">
+    <style>
+        body{
+            background-color: rgb(57, 213, 153);
+        }
+        table,tr,th,td{
+            border:1px white double;
+        }
+    </style>
+</head>
+<body>
+    <h1>Python</h1>
+        <ul>
+            <li>Python Easy method and easy leaning programming knowladge.</li>
+            <li>Python -object orianted programming.</li>
+            <li>Python use to Macine leaning ,Cuberscurity,web-development and etc.</li>
+            <li>Python leaning important.</li>
+        </ul>
+        <hr>
+        <aside>
+            <details>
+                <summary><mark>PYTHON</mark></summary>
+                <ul>
+                    <li>Django</li>
+                    <li>Flask</li>
+                </ul>
+            </details>
+        </aside>
+        <hr>
+        <table>
+            <tr>
+                <th>S.No</th>
+                <th id="course">COURSE</th>
+                <th>DETAILS</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Html</td><!--Scope and headers use the method-->
+                <td rowspan="3">must use the web development</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td >Css</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Python</td>
+            </tr>
+        </table>
+        <hr>
+    <form action="http.php"  method="get">
+        <fieldset>
+            <legend>Personal info</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="Name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="Name" id="Name" placeholder="name" value="" autofocus autocomplete="off" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="email-id">Email-id:</label>
+                <td>
+                    <input type="text" name="mail" id="email-id" placeholder="email" value="" autocomplete="on"  required><!--autofocuse-->
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                 </td>
+                 <td>
+                      <input type="password" name="password" id="password" required>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">phone number:</label>
+                </td>
+                <!--number type min ,max and step -->
+                <td>
+                    <input type="tel" name="phonenumber" id="phone"  required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="content">Course details:</label>
+                </td>
+                <td>
+                    <select name="content" id="content" multiple size="2">
+                <optgroup label="Courses">
+                        <option value="html">Hyper text markup language</option>
+                    <option value="Css">
+                        Casecading Style sheet
+                    </option>
+                    <option value="Python" selected>python-porgraming language</option>
+                </optgroup>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>
+            python framework
+        </legend>
+        <input type="radio" name="framework" id="django" value="django">
+        <label for="django">django</label>
+        <input type="radio" name="framework" id="Flask" value="Flask">
+        <label for="Flask">Flask</label>
+    </fieldset>
+    <fieldset>
+        <legend>Course details</legend>
+        <input type="checkbox" name="course" id="html">
+        <label for="html">html</label><br>
+        <input type="checkbox" name="course" id="Css">
+        <label for="Css">css</label><br>
+        <input type="checkbox" name="course" id="python">
+        <label for="python">python</label>
+    </fieldset>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+    </form>    
+</body>
+</html>

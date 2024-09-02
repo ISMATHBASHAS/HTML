@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(69, 67, 67);
+    color: aliceblue;
+}
+h3{
+    background-color:chartreuse;
+    color: rgb(18, 16, 15);
+    text-align: center;
+}
+strong{
+    text-transform:uppercase;
+}
+a{
+    color: aliceblue;
+   text-decoration: dotted;
+}
+abbr{
+    text-decoration: dotted;
+}
